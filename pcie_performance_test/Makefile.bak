@@ -1,0 +1,4 @@
+all:
+	gcc *.c -g -o test -I ./PciGUOMI/include -L ./PciGUOMI/lib -lPciGUOMI -lpthread -DDMS_DEBUG
+clean:
+	rm -f *.o main
