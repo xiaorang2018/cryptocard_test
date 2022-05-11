@@ -1,0 +1,149 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include "dms_sdf.h"
+
+typedef int16_t  WORD ;
+char pciLogTable[255][255] = 
+{
+	"",
+	"PCIERR_DM_OPENDEVICE", 
+	"PCIERR_DM_OPENSESSION", 
+	"PCIERR_DM_GENRANDOM", 
+	"PCIERR_DM_RANDOMEQUAL", 
+	"PCIERR_DM_CLOSESESSION", 
+	"PCIERR_DM_CLOSEDEVICE", 
+	"PCIERR_DM_GETDEVICEINFO", 
+	"PCIERR_DM_GETPRIKEYACCESSRIGHT", 
+	"PCIERR_DM_RELEASEPRIKEYACCESSRIGHT", 
+	"PCIERR_NKM_EXPORTSIGNPUBKEY", 
+	"PCIERR_NKM_EXPORTENCRYPTPUBKEY", 
+	"PCIERR_NKM_GENERATEKEYWITHKEK", 
+	"PCIERR_NKM_IMPORTKEYWITHKEK", 
+	"PCIERR_NKM_GENERATEKEYWITHECC", 
+	"PCIERR_NKM_IMPORTKEYWITHECC", 
+	"PCIERR_NKM_DESTROYKEY", 
+	"PCIERR_CKM_GENERATEKEYMATRIX", 
+	"PCIERR_CKM_GENERATECENTERKEY", 
+	"PCIERR_CKM_GENERATEKEK", 
+	"PCIERR_CKM_DELETEKEK", 
+	"PCIERR_CKM_IMPORTPUBMATRIX", 
+	"PCIERR_CKM_EXPORTPUBMATRIX", 
+	"PCIERR_CKM_SEGMENTKEY", 
+	"PCIERR_CKM_GETSEGMENTKEY", 
+	"PCIERR_CKM_KEYRECOVERYINIT", 
+	"PCIERR_CKM_IMPORTSEGMENTKEY", 
+	"PCIERR_CKM_KEYRECOVERY", 
+	"PCIERR_CKM_IMPORTENVELOPE", 
+	"PCIERR_CKM_EXPORTENVELOPE", 
+
+	"PCIERR_DI_SM3", 
+	"PCIERR_DI_HASHINIT", 
+	"PCIERR_DI_HASHUPDATE", 
+	"PCIERR_DI_HASHFINAL", 
+
+	"PCIERR_SM_ENCRYPTINIT", 
+	"PCIERR_SM_ENCRYPTUPDATE", 
+	"PCIERR_SM_ENCRYPTFINAL", 
+	"PCIERR_SM_DECRYPTINIT", 
+	"PCIERR_SM_DECRYPTUPDATE", 
+	"PCIERR_SM_DECRYPTFINAL", 
+	"PCIERR_SM_DECRYPTFAIL", 
+	"PCIERR_SM_MACINIT", 
+	"PCIERR_SM_MACUPDATE", 
+	"PCIERR_SM_MACFINAL", 
+
+	"PCIERR_FL_CREATFILE", 
+	"PCIERR_FL_WRITEFILE", 
+	"PCIERR_FL_READFILE", 
+	"PCIERR_FL_DELETEFILE", 
+
+	"PCIERR_ASM_ECCSIGN", 
+	"PCIERR_ASM_ECCVERIFY", 
+
+	"PCIERR_CKM_CALCULATESERVERKEY", 
+	"PCIERR_ASM_INTERNALVERIFY", 
+	"PCIERR_ASM_EXTERNALENCRYPT", 
+	"PCIERR_NKM_GENAGREEDATAWITHECC", 
+	"PCIERR_NKM_GENAGREEMENTDATAANDKEYWITHECC", 
+	"PCIERR_NKM_GENKEYWITHECC", 
+	"PCIERR_SM_ENCRYPT", 
+	"PCIERR_SM_DECRYPT", 
+	"PCIERR_NKM_KEYEXCHANGE", 
+	"PCIERR_NKM_GENECCKEYPAIR", 
+	"PCIERR_NKM_ExchangeDigitEnv", 
+
+	"PCIERR_APP_OPENDEV", 
+	"PCIERR_APP_CLOSEDEV", 
+	"PCIERR_APP_GENERATEMATRIX", 
+	"PCIERR_APP_GETDEVINFO", 
+	"PCIERR_APP_GETHANDLE", 
+	"PCIERR_APP_IMPORTMATRIX", 
+	"PCIERR_APP_EXPORTMATRIX", 
+	"PCIERR_APP_CALCULATEDEVKEY", 
+	"PCIERR_APP_GENERATECENTERKEY", 
+	"PCIERR_APP_CALCULATESERVERKEY", 
+	"PCIERR_APP_SM3", 
+	"PCIERR_APP_SIGN", 
+	"PCIERR_APP_VERIFY", 
+	"PCIERR_APP_ENCRYPT", 
+	"PCIERR_APP_DECRYPT", 
+	"PCIERR_APP_CALCULATEPERSONKEY", 
+	"PCIERR_APP_IMPORTDEVENVELOPE", 
+	"PCIERR_APP_EXPORTDEVENVELOPE", 
+	"PCIERR_APP_IMPORTSERVERKEY"
+	"PCIERR_APP_VERIFYPIN",
+};
+
+
+void pciCunitTestWriteLog(WORD logret, WORD ret, void *reserve)
+{
+	char log[1024] = {0};
+
+	if(reserve)
+		sprintf(log, "in Function(%s) %d, ret = 0x%04hx", (char*)reserve, logret, ret);
+	else
+		sprintf(log, "%s ret = %08hx", pciLogTable[logret], ret);
+	dmsWriteLog("pciCunitLog", log);
+}
+
+
+void itoaSinn(char b, char *dst, int redix)
+{
+	int i;
+	unsigned char val;
+
+	for (i = 0; i < 2; i++)
+	{
+		val = (b & 0xf0) >> 4;
+		if (0 <= val && val <= 9)
+			dst[i] = val + '0';
+		else
+			dst[i] = val - 10 + 'A';
+		b = b << 4;
+	}		
+	dst[i] = '\0';
+}
+
+
+
+void pciCunitWriteErrLog(char *msg, char *buf, int len)
+{
+	FILE *fp;
+	char ch[5] = {0};
+	int i = 0;
+	fp = fopen("pciCunitErrLog", "ab+");
+	fwrite(msg, 1, strlen(msg), fp);
+
+	for (i = 0; i < len; i++)
+	{
+		itoaSinn(buf[i], ch, 16);
+		fwrite(ch, 1, strlen(ch), fp);
+		fwrite(" ", 1, strlen(" "), fp);
+	}	
+	
+	
+	fwrite("\n", 1, strlen("\n"), fp);
+	fclose(fp);
+}

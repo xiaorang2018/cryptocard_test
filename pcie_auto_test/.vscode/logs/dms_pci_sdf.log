@@ -1,0 +1,212 @@
+[DMS-PCIE-SDF] [2021-11-24 17:06:26:791] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1006bb4
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:26:791] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:26:791] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x1006bb4
+[DMS-PCIE-SDF] [2021-11-24 17:06:26:895] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x10000b4
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:26:895] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:26:895] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x10000b4
+[DMS-PCIE-SDF] [2021-11-24 17:06:26:987] [error] [th:005037] SDF_GenerateKeyPair_ECC, Algorithm Not Support Error.
+[DMS-PCIE-SDF] [2021-11-24 17:06:27:036] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x10024fb
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:27:036] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:27:036] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x10024fb
+[DMS-PCIE-SDF] [2021-11-24 17:06:27:103] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100000e
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:27:104] [error] [th:005037] ExternalVerify_ECC, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:27:104] [error] [th:005037] DmsSdfProcessor::ExternalVerify_ECC failure! nRet:0x100000e
+[DMS-PCIE-SDF] [2021-11-24 17:06:27:161] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000016
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:27:161] [error] [th:005037] DecryptFinalWithMutex, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:27:161] [error] [th:005037] DmsSdfProcessor::ExternalEncrypt_ECC failure! nRet:0x1000016
+[DMS-PCIE-SDF] [2021-11-24 17:06:27:204] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100bf88
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:27:204] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:27:204] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x100bf88
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:332] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x10000d3
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:333] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:333] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x10000d3
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:454] [error] [th:005037] SDF_GenerateKeyPair_ECC, Algorithm Not Support Error.
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:495] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x10000d3
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:495] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:495] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x10000d3
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:537] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100000e
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:537] [error] [th:005037] ExternalVerify_ECC, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:538] [error] [th:005037] DmsSdfProcessor::ExternalVerify_ECC failure! nRet:0x100000e
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:578] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000016
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:578] [error] [th:005037] DecryptFinalWithMutex, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:578] [error] [th:005037] DmsSdfProcessor::ExternalEncrypt_ECC failure! nRet:0x1000016
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:621] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000030
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:621] [error] [th:005037] EncryptInitWithMutex, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:621] [error] [th:005037] EncryptInitWithMutex err! nRetCode:0x1000030
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:621] [error] [th:005037] DmsSdfProcessor::Encrypt failure! nRet:0x1000030
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:661] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x10000d3
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:662] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:28:662] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x10000d3
+[DMS-PCIE-SDF] [2021-11-24 17:06:29:781] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x10000f7
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:29:781] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:29:781] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x10000f7
+[DMS-PCIE-SDF] [2021-11-24 17:06:29:854] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x10000f7
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:29:854] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:29:854] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x10000f7
+[DMS-PCIE-SDF] [2021-11-24 17:06:29:932] [error] [th:005037] SDF_GenerateKeyPair_ECC, Algorithm Not Support Error.
+[DMS-PCIE-SDF] [2021-11-24 17:06:29:970] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100b4f7
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:29:970] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:29:970] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x100b4f7
+[DMS-PCIE-SDF] [2021-11-24 17:06:30:013] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100000e
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:30:013] [error] [th:005037] ExternalVerify_ECC, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:30:013] [error] [th:005037] DmsSdfProcessor::ExternalVerify_ECC failure! nRet:0x100000e
+[DMS-PCIE-SDF] [2021-11-24 17:06:30:071] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000016
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:30:071] [error] [th:005037] DecryptFinalWithMutex, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:30:071] [error] [th:005037] DmsSdfProcessor::ExternalEncrypt_ECC failure! nRet:0x1000016
+[DMS-PCIE-SDF] [2021-11-24 17:06:30:122] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1002b79
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:30:122] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:30:122] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x1002b79
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:267] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x10000a3
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:267] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:267] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x10000a3
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:330] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x10000a3
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:330] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:330] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x10000a3
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:371] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x10000a3
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:371] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:371] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x10000a3
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:448] [error] [th:005037] SDF_GenerateKeyPair_ECC, Algorithm Not Support Error.
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:488] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100c15b
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:488] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:488] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x100c15b
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:530] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100000e
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:530] [error] [th:005037] ExternalVerify_ECC, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:530] [error] [th:005037] DmsSdfProcessor::ExternalVerify_ECC failure! nRet:0x100000e
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:571] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000016
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:571] [error] [th:005037] DecryptFinalWithMutex, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:572] [error] [th:005037] DmsSdfProcessor::ExternalEncrypt_ECC failure! nRet:0x1000016
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:613] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000030
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:613] [error] [th:005037] EncryptInitWithMutex, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:613] [error] [th:005037] EncryptInitWithMutex err! nRetCode:0x1000030
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:613] [error] [th:005037] DmsSdfProcessor::Encrypt failure! nRet:0x1000030
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:655] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000030
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:655] [error] [th:005037] CalculateMACInitWithMutex, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:655] [error] [th:005037] CalculateMACInitWithMutex err! nRetCode:0x1000030
+[DMS-PCIE-SDF] [2021-11-24 17:06:31:655] [error] [th:005037] DmsSdfProcessor::CalculateMAC failure! nRet:0x1000030
+[DMS-PCIE-SDF] [2021-11-24 17:06:32:773] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100007f
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:32:773] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:32:773] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x100007f
+[DMS-PCIE-SDF] [2021-11-24 17:06:32:830] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100f1f0
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:32:830] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:32:830] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x100f1f0
+[DMS-PCIE-SDF] [2021-11-24 17:06:32:872] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100007f
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:32:872] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:32:872] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x100007f
+[DMS-PCIE-SDF] [2021-11-24 17:06:32:949] [error] [th:005037] SDF_GenerateKeyPair_ECC, Algorithm Not Support Error.
+[DMS-PCIE-SDF] [2021-11-24 17:06:33:005] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1007b38
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:33:005] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:33:005] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x1007b38
+[DMS-PCIE-SDF] [2021-11-24 17:06:33:048] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100000e
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:33:048] [error] [th:005037] ExternalVerify_ECC, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:33:048] [error] [th:005037] DmsSdfProcessor::ExternalVerify_ECC failure! nRet:0x100000e
+[DMS-PCIE-SDF] [2021-11-24 17:06:33:105] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000016
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:33:105] [error] [th:005037] DecryptFinalWithMutex, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:33:105] [error] [th:005037] DmsSdfProcessor::ExternalEncrypt_ECC failure! nRet:0x1000016
+[DMS-PCIE-SDF] [2021-11-24 17:06:33:149] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100007f
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:33:149] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:33:149] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x100007f
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:351] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x10000e6
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:351] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:351] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x10000e6
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:453] [error] [th:005037] SDF_GenerateKeyPair_ECC, Algorithm Not Support Error.
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:489] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100c8c4
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:489] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:489] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x100c8c4
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:531] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100000e
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:531] [error] [th:005037] ExternalVerify_ECC, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:531] [error] [th:005037] DmsSdfProcessor::ExternalVerify_ECC failure! nRet:0x100000e
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:573] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000016
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:573] [error] [th:005037] DecryptFinalWithMutex, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:573] [error] [th:005037] DmsSdfProcessor::ExternalEncrypt_ECC failure! nRet:0x1000016
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:616] [error] [th:005037] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100478b
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:616] [error] [th:005037] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:34:616] [error] [th:005037] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x100478b
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:152] [error] [th:005225] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100d40d
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:152] [error] [th:005225] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:152] [error] [th:005225] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x100d40d
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:290] [error] [th:005225] SDF_GenerateKeyPair_ECC, Algorithm Not Support Error.
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:345] [error] [th:005225] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100214a
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:345] [error] [th:005225] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:345] [error] [th:005225] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x100214a
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:387] [error] [th:005225] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100000e
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:388] [error] [th:005225] ExternalVerify_ECC, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:388] [error] [th:005225] DmsSdfProcessor::ExternalVerify_ECC failure! nRet:0x100000e
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:445] [error] [th:005225] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000016
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:445] [error] [th:005225] DecryptFinalWithMutex, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:445] [error] [th:005225] DmsSdfProcessor::ExternalEncrypt_ECC failure! nRet:0x1000016
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:487] [error] [th:005225] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000030
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:487] [error] [th:005225] EncryptInitWithMutex, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:487] [error] [th:005225] EncryptInitWithMutex err! nRetCode:0x1000030
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:487] [error] [th:005225] DmsSdfProcessor::Encrypt failure! nRet:0x1000030
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:545] [error] [th:005225] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100e7cf
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:545] [error] [th:005225] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:48:545] [error] [th:005225] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x100e7cf
+[DMS-PCIE-SDF] [2021-11-24 17:06:49:742] [error] [th:005225] SDF_GenerateKeyPair_ECC, Algorithm Not Support Error.
+[DMS-PCIE-SDF] [2021-11-24 17:06:49:804] [error] [th:005225] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1007759
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:49:804] [error] [th:005225] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:49:804] [error] [th:005225] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x1007759
+[DMS-PCIE-SDF] [2021-11-24 17:06:49:846] [error] [th:005225] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100000e
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:49:846] [error] [th:005225] ExternalVerify_ECC, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:49:846] [error] [th:005225] DmsSdfProcessor::ExternalVerify_ECC failure! nRet:0x100000e
+[DMS-PCIE-SDF] [2021-11-24 17:06:49:904] [error] [th:005225] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000016
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:49:904] [error] [th:005225] DecryptFinalWithMutex, TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:49:904] [error] [th:005225] DmsSdfProcessor::ExternalEncrypt_ECC failure! nRet:0x1000016
+[DMS-PCIE-SDF] [2021-11-24 17:06:49:947] [error] [th:005225] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000457
+
+[DMS-PCIE-SDF] [2021-11-24 17:06:49:947] [error] [th:005225] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:06:49:947] [error] [th:005225] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x1000457
+[DMS-PCIE-SDF] [2021-11-24 17:07:38:513] [error] [th:005352] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x100f3ae
+
+[DMS-PCIE-SDF] [2021-11-24 17:07:38:513] [error] [th:005352] GenerateKeyWithEPK_ECC TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 17:07:38:513] [error] [th:005352] DmsSdfProcessor::GenerateKeyWithEPK_ECC failure! nRet:0x100f3ae
+[DMS-PCIE-SDF] [2021-11-24 18:56:23:724] [error] [th:024501] error PacketPcieMsgList2SdfMsg,*sdfMsg.m_puiOpRetCode:0x1000093
+
+[DMS-PCIE-SDF] [2021-11-24 18:56:23:724] [error] [th:024501] dmsPCI_ChangeKeyPIN TransmitData failed.
+[DMS-PCIE-SDF] [2021-11-24 18:56:23:724] [error] [th:024501] DmsSdfProcessor::dmsPCI_ChangeKeyPIN failure! nRet:0x1000093
